@@ -1,6 +1,6 @@
 package oop
 
-class Person(var name: String, var email: String, var password: String) {
+data class Person(var name: String, var email: String, var password: String) {
     private var bloodgroup:String = ""
     fun setbloodgroup(bloodgroup:String){
         this.bloodgroup = bloodgroup

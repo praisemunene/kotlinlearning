@@ -1,6 +1,6 @@
 package oop
 
-class User(var name: String, var email: String, var password: String) {
+open class User(open var name: String, open var email: String, open var password: String) {
     private var phonenumber:String = ""
     fun setphonenumber(phonenumber:String){
         this.phonenumber = phonenumber
